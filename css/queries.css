@@ -1,0 +1,170 @@
+@media only screen and (max-width: 1200px){
+   .soundhood-caps{
+      width: 100%;
+      padding: 0 2%;
+      margin-top: 25px;
+  }
+  .row{ padding: 0 2%;}
+  .main-nav li   {
+    margin-right: 12px;
+    font-size: 12px;
+   }
+   .logo{
+     border: 2px solid white;
+     height: 90px;
+     width: auto;
+
+     margin: 40px  0px 0 60px;
+
+   }
+   .logo img{width: 90px;}
+    h3{
+      font-size: 14px;
+      font-weight: 600;
+      text-transform: uppercase;
+      padding: 10px;
+    }
+    .contact-sub input[type=button]{
+         font-size: 15px
+    }
+    .member-features{ line-height: 20px; }
+    .section-member,
+    .section2-member{
+      width: 100%;
+      margin: 0;
+    }
+    .contact-form{
+      width: 80%;
+    }
+}
+
+/*   Small Tablets to Big tablets from: 767px to 1023px */
+@media only screen and (max-width: 1023px){
+      body{font-size: 15px;}
+      section{padding: 60px 0px}
+      .para1{
+        width: 80%;
+        font-size: 16px;
+        text-align: left;
+        margin-left: 10%;
+        padding:20px 20px;
+      }
+     }
+
+   footer{
+    font-size: 20px;
+  }
+
+
+/*  Small phones to small Tablets from: 481px to 767px */
+@media only screen and (max-width: 767px){
+  body{font-size: 15px;}
+  section{padding: 40px 0px}
+  .row{padding: 0 4%;}
+  .col {width: 100%}
+
+  .main-nav{
+    float: left;
+    display: none;
+  }
+  .main-nav li{
+    display: block;
+
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited{
+    display: block;
+    margin-left: 180px;
+    border: 0;
+    font-size: 15px;
+  }
+  .mobile-nav-icon,
+  .mobile-nav-icon .imgicon{
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+  .mobile-nav-icon2,
+  .mobile-nav-icon2 .imgicon2{
+    display: block;
+    margin-right: 10px;
+    margin-top: 15px;
+
+  }
+  .section-testimonials{margin: 0;}
+      .soundhood-caps{margin-top: 35px;}
+      .soundhood-caps h1{font-size: 70px;}
+      .soundhood-caps h1 span {font-size: 30px;}
+      .soundhood-caps h1 img{height: 55px;}
+      h2{font-size: 35px}
+      .contact-links{
+        font-size: 20px;
+        text-align: center;
+        padding: 0;
+        width: 90%;
+        /* margin-left: 5%; */
+      }
+      h3{
+        font-size: 40px;
+        padding: 40px 40px;
+      }
+      .contact-links-head{
+        text-align: center;
+        margin-left: 37%;
+      }
+      .contact-sub{margin-left: 100px;}
+      .logo{ margin:  40px  0px 0 40px; }
+             .box p{ font-size: 100%; }
+             .contact-sub input[type=button]{
+                  font-size: 15px;
+                  width: 20%;
+             }
+             .section-contact p{
+               width: 90%;
+               font-size: 16px;
+               text-align: left;
+               margin-left: 5%;
+               padding: 10px 10px;
+               line-height: 22px;
+             }
+             .member-image{
+               width: 80%;
+               margin-left: 10%;
+             }
+             .contact-links-head{
+               width: 80%;
+               margin-left: 10%;
+               /* padding: 10px 0px 10px 0px; */
+               /* text-align: center; */
+               color: #5A595A;
+               font-size: 20px;
+             }
+          .contact-links{
+            width: 100%;
+            line-height: 40px;
+          }
+          .box p {
+             font-size: 120%;
+             line-height: 155%;
+          }
+          .footer-nav li a:link,
+          .footer-nav li a:active{
+             margin-right: 18px;
+            /* margin-left: 10%; */
+          }
+
+          .social-links{margin-left: 60px;}
+           footer{
+            font-size: 20px;
+          }
+}
+/* Small phones from 0 to 480px */
+@media only screen and (max-width: 480px){
+  body{
+    padding: 0;
+    margin: 0;
+  }
+ footer{padding: 0;}
+
+}
